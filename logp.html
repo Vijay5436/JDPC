@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="logcss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+   <div class="login-page">
+  <div class="form">
+    <form class="register-form" action="register.jsp">
+      <input type="text" placeholder="name" name="uname"/>
+      <input type="password" placeholder="password" name="pass"/>
+      <input type="text" placeholder="email address" name="email"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form" action="login.jsp">
+      <input type="text" placeholder="username" name="uname"/>
+      <input type="password" placeholder="password" name="pass"/>
+      <button>login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>
+  
+<script src="logjs.js"></script>
+</body>
+</html>
